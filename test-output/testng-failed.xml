@@ -7,11 +7,8 @@
         <methods>
           <include name="MysetUp"/>
           <include name="AfterTestin"/>
-          <include name="CheckTheDefaultCurancyisSAR"/>
-          <include name="CheckContactNumber"/>
-          <include name="CheckQitafLogo"/>
-          <include name="CheckLanguageIsEnglish"/>
-          <include name="CheckHotelTabNotSelectedByDefualt"/>
+          <include name="makeSurePageIsFullyLoaded"/>
+          <include name="switchToHotelTab"/>
         </methods>
       </class> <!-- AlmosaferWeb.MyTestCases -->
     </classes>
